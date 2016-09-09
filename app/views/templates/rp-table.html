@@ -1,0 +1,17 @@
+<table class="table">
+	<thead>
+		<tr>
+			<th ng-repeat = "col in columns" ng-style="col.style">
+				{{col.label}}
+			</th>
+		</tr>
+	</thead>
+	<tbody></tbody>
+</table>
+<div>
+	<span class="glyphicon glyphicon-fast-backward"></span>
+	<span class="glyphicon glyphicon-backward"></span>
+	<span>Página {{page}} de {{numPages}}</span>
+	<span class="glyphicon glyphicon-forward"></span>
+	<span class="glyphicon glyphicon-fast-forward"></span>
+</div>
